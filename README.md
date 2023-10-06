@@ -53,11 +53,20 @@ $m\ddot{y}+b(\dot{y}-\dot{x})+k(y-x)=0$
 
 라플라스 변환
 
-$$\begin{bmatrix} 
-   a_{11} & a_{12} & a_{13}  \\
-   a_{21} & a_{22} & a_{23}  \\
-   a_{31} & a_{32} & a_{33}  \\
-   \end{bmatrix}$$
+$$\begin{bmatrix}
+  Ms^2+bs+k & -(bs+k)  \\
+  -(bs+k) & ms^2+bs+k  \\
+  \end{bmatrix}
+  \begin{bmatrix}
+  X(s)  \\
+  Y(s)  \\
+  \end{bmatrix}
+  =\begin{bmatrix}
+  F(s)  \\
+  0  \\
+  \end{bmatrix}$$  
 
+$\frac{Y(s)}{F(s)}
+=\frac{\frac{1}{mM}(bs+k)}{s^2[s^2+(1+\frac(m}{M})(\frac{b}{m}s+\frac{k}{m})]}$
 
 ## **P2.37**
